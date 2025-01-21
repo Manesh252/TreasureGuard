@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.container {
+    background-color: #bab6b3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #59e00f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: -400px;
+    margin-right: 390px;
+    margin-top: 80px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+input {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+    outline: none;
+    padding: 5px 0px;
+    background: none;
+    margin-bottom: 5px;
+
+}
+
+button {
+    border-radius: 30px;
+    background-color: #59e00f;
+    padding: 5px;
+    width: 75px;
+    margin-top: 5px;
+    border: 3px solid black;
+    box-shadow: 1px 1px 5px black;
+
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    font-style: bold;
+    font-size: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+form {
+    width: 50%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: black;
+    height: 100vh;
+}
+
+.logo img {
+    display: inline;
+    position: absolute;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+
+.companyname {
+    display: flex;
+    position: relative;
+    color: white;
+    margin-top: 85px;
+    margin-left: 707px;
+}
+
+.companyname span {
+    margin-left: 10px;
+    color: #59e00f;
+}

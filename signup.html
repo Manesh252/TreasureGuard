@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="man.png" alt="">
+        <h1 class="companyname">Treasure<span> Guard</span></span></h1>
+    </div>
+    <div class="container">
+
+        <form onsubmit="return validateForm()">
+            <h3>Create Your Account</h3>
+            <label for="username">Username :</label>
+            <input type="text" name="username" id="username" required>
+            <label for="password">E-mail Id :</label>
+            <input type="email" name="email" id="email" required>
+            <p id="emailmessage" style="color: red;"></p>
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password" required>
+            <label for="confirmpassword">Confirm Password :</label>
+            <input type="password" name="confirmpassword" id="confirmpassword" required>
+            <p id="passwordmessage" style="color: red;"></p>
+            <button type="submit">Signup</button>
+        </form>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+
+</html>
